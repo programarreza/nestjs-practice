@@ -37,7 +37,7 @@ export class SongsController {
     }
   }
 
-  // get single songs by dynamic id
+  // get single songs by dynamic id0
   @Get(':id')
   findOne(
     @Param(
